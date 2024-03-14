@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <div className="App"  style={{ 
-      backgroundImage: `url("https://t4.ftcdn.net/jpg/06/66/81/85/240_F_666818581_LqP8JBcFGA4nU8veA6qYsBvOSPlaD88c.jpg")`,
+      backgroundImage: `url("https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVycGxlfGVufDB8fDB8fHww")`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',

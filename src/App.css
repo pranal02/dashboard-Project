@@ -24,10 +24,11 @@
 
 .AppGlass {
   display: grid;
-  height: 95%;
-  width: 97%;
+  height: 100%;
+  width: 100%;
   background: var(--glass);
   gap: 16px;
+  
   grid-template-columns: 11rem auto 20rem;
   overflow: hidden ;
 }
