@@ -50,12 +50,12 @@ export const cardsData = [
       boxShadow: "0px 10px 20px 0px #98ed6b",
     },
     barValue: 70,
-    value: "25,970",
+    value: "45,970",
     png: UilUsdSquare,
     series: [
       {
         name: "Sales",
-        data: [31, 40, 28, 51, 42, 109, 100,102,111],
+        data: [31, 40, 28, 51, 42, 109, 100],
       },
     ],
   },
@@ -71,7 +71,7 @@ export const cardsData = [
     series: [
       {
         name: "Revenue",
-        data: [10, 100, 50, 70, 80, 30, 40,60 , 85,93,42],
+        data: [10, 100, 50, 70, 80, 30, 40],
       },
     ],
   },
@@ -88,7 +88,7 @@ export const cardsData = [
     series: [
       {
         name: "Expenses",
-        data: [10, 25, 15, 30, 12, 15, 20,12 , 16 ,13],
+        data: [10, 25, 15, 30, 12, 15, 20],
       },
     ],
   },
