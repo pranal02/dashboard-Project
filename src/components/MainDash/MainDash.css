@@ -8,6 +8,9 @@
 .MainDash>h1{
     color: rgb(0, 0, 0);
 }
+.MainDash>h1>span{
+    color: rgba(156, 8, 175, 0.728);
+}
 
 @media screen and (max-width: 1200px) {
     .MainDash{
