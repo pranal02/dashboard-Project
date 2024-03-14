@@ -5,7 +5,7 @@ import "./MainDash.css";
 const MainDash = () => {
   return (
     <div className="MainDash">
-      <h1>ESP DASHBOARD</h1>
+      <h1>ERP Dashboard</h1>
       <Cards />
       <Table />
     </div>

@@ -27,13 +27,7 @@
   display: grid;
   height: 100%;
   width: 100%;
-  background: linear-gradient(
-    106.37deg,
-    #ecedc9 9.63%,
-    #ffffff 51.55%,
-    #d1ecb3 90.85%
-  );
- 
+  background: var(--white);
   gap: 16px;
   grid-template-columns: 11rem auto 20rem;
   overflow: hidden ;
