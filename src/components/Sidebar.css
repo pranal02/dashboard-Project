@@ -51,6 +51,8 @@
 
 .menuItem:hover {
   cursor: pointer;
+  
+
 }
 
 .menu .menuItem:last-child {
@@ -61,6 +63,7 @@
 
 .active {
   background: var(--activeItem);
+  color: #ffe0e0;
   margin-left: 0;
 }
 .active::before {
