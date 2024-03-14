@@ -6,7 +6,7 @@
 }
 
 .MainDash>h1{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 1200px) {
