@@ -47,7 +47,7 @@ export const cardsData = [
     title: "Sales",
     color: {
       backGround: "linear-gradient(180deg, #95ff7a 0%, #06cf17 100%)",
-      boxShadow: "0px 10px 20px 0px #e0c6f5",
+      boxShadow: "0px 10px 20px 0px #98ed6b",
     },
     barValue: 70,
     value: "25,970",
@@ -80,7 +80,7 @@ export const cardsData = [
     color: {
       backGround:
       "linear-gradient(180deg, #bd7ef7 0%, #8916f2 100%)",
-      boxShadow: "0px 10px 20px 0px #F9D59B",
+      boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
     barValue: 60,
     value: "4,270",

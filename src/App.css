@@ -25,9 +25,9 @@
 
 .AppGlass {
   display: grid;
-  height: 100%;
-  width: 100%;
-  background: var(--white);
+  height: 95%;
+  width: 95%;
+  background: var(--glass);
   gap: 16px;
   grid-template-columns: 11rem auto 20rem;
   overflow: hidden ;
