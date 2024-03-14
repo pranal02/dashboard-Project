@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <div className="App"  style={{ 
-      backgroundImage: `url("https://img.freepik.com/premium-photo/business-data-financial-figures-visualiser-graphic_31965-19338.jpg?w=1060")`,
+      backgroundImage: `url("https://img.freepik.com/free-photo/shopping-cart-with-wooden-elements_23-2148879396.jpg?size=626&ext=jpg&ga=GA1.1.1069466014.1709931439&semt=ais")`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
