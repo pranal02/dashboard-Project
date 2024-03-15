@@ -23,7 +23,7 @@ const Widget = ({ type }) => {
             className="icon"
             style={{
               color: "crimson",
-              backgroundColor: "rgba(255, 0, 0, 0.2)",
+              backgroundColor : "rgba(255, 0, 0, 0.2)",
             }}
           />
         ),
