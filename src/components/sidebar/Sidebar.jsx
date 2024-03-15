@@ -1,5 +1,5 @@
-import "./sidebar.scss";
-import Logo from "../../img/logo.png";
+import "./sidebar.scss";    //importing  style file 
+import Logo from "../../img/logo.png";  // importing  style file 
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
@@ -12,7 +12,12 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import SettingsSystemDaydreamOutlinedIcon from "@mui/icons-material/SettingsSystemDaydreamOutlined";
 import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-import { Link } from "react-router-dom";
+import ScheduleIcon from '@mui/icons-material/Schedule'; 
+import WbSunnyIcon from '@mui/icons-material/WbSunny';
+import ModeNightIcon from '@mui/icons-material/ModeNight';
+
+// using material icons 
+import { Link } from "react-router-dom"; // The <Link> and <NavLink> are the components for anchor tags replacement provided by react-router-dom to navigate around the react application.
 import { DarkModeContext } from "../../context/darkModeContext";
 import { useContext } from "react";
 
@@ -28,12 +33,12 @@ const Sidebar = () => {
       <hr />
       <div className="center">
         <ul>
-          <p className="title">MAIN</p>
+          <p className="title">MENU</p>
           <li>
             <DashboardIcon className="icon" />
             <span>Dashboard</span>
           </li>
-          <p className="title">LISTS</p>
+          <p className="title">MANAGEMENT</p>
           <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <PersonOutlineIcon className="icon" />
@@ -52,7 +57,7 @@ const Sidebar = () => {
           </li>
           <li>
             <LocalShippingIcon className="icon" />
-            <span>Delivery</span>
+            <span>Delivery Status</span>
           </li>
           <p className="title">USEFUL</p>
           <li>
@@ -60,18 +65,12 @@ const Sidebar = () => {
             <span>Stats</span>
           </li>
           <li>
-            <NotificationsNoneIcon className="icon" />
-            <span>Notifications</span>
+            <ScheduleIcon className="icon" />
+            <span>Schedule</span>
           </li>
           <p className="title">SERVICE</p>
-          <li>
-            <SettingsSystemDaydreamOutlinedIcon className="icon" />
-            <span>System Health</span>
-          </li>
-          <li>
-            <PsychologyOutlinedIcon className="icon" />
-            <span>Logs</span>
-          </li>
+         
+          
           <li>
             <SettingsApplicationsIcon className="icon" />
             <span>Settings</span>
@@ -87,15 +86,30 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
+      <p className="title1">THEME</p>
       <div className="bottom">
         <div
           className="colorOption"
           onClick={() => dispatch({ type: "LIGHT" })}
-        ></div>
+        > 
+        
+           <WbSunnyIcon className="icon" />  
+            <span>LIGHT</span>
+          
+
+
+        </div>
         <div
           className="colorOption"
           onClick={() => dispatch({ type: "DARK" })}
-        ></div>
+        >
+         
+         <ModeNightIcon className="icon" />
+            <span>DARK</span>
+          
+
+
+        </div>
       </div>
     </div>
   );
