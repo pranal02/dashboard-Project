@@ -1,4 +1,5 @@
 import "./sidebar.scss";
+import Logo from "../../img/logo.png";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
@@ -21,7 +22,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="top">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span className="logo">lamadmin</span>
+          <span className="logo"><img src={Logo} alt="logo" /><span>Big</span>Deal</span>
         </Link>
       </div>
       <hr />
